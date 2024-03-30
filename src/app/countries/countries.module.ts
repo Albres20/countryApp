@@ -8,6 +8,7 @@ import { CountriesRoutingModule } from './countries-routing.module';
 import { SearchBoxComponent } from '../shared/components/search-box/search-box.component';
 import { SharedModule } from '../shared/shared.module';
 import { HttpClient } from '@angular/common/http';
+import { CountryTableComponent } from './components/country-table/country-table.component';
 
 
 
@@ -16,7 +17,8 @@ import { HttpClient } from '@angular/common/http';
     ByCapitalPageComponent,
     ByCountryPageComponent,
     ByRegionPageComponent,
-    CountryPageComponent
+    CountryPageComponent,
+    CountryTableComponent
   ],
   imports: [
     CommonModule,
